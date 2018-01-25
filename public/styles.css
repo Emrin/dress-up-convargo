@@ -1,3 +1,7 @@
+body {
+  color: #414141;    /* Dark gray */
+}
+
 .button {
   color: #FFF;
   background-color: #5995DA;    /* Blue */
