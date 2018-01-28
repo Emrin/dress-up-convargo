@@ -1,16 +1,95 @@
+/* No templates were used in the making of this document. */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-  color: #414141;    /* Dark gray */
-}
-
-.button {
-  color: #FFF;
-  background-color: #5995DA;    /* Blue */
-  font-weight: bold;
-  padding: 20px;
+  background-color: rgb(42, 42, 42);
+  font-size: 18px;
+  line-height: 1.8em;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
   text-align: center;
-  border: 2px solid #5D6063;    /* Dark gray */
-  border-radius: 5px;
-
-  width: 200px;
-  margin: 20px auto;
 }
+
+#trucker {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background: rgb(105, 105, 105);
+  color: white;
+  border-radius: 30px;
+}
+
+
+
+#shipper {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background: rgb(105, 105, 105);
+  color: white;
+  border-radius: 30px;
+}
+
+input[class] {
+  background: rgb(161, 255, 158);
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 0;
+}
+
+input:hover {
+  background: green;
+}
+
+h1 {
+  background: black;
+  line-height: 1.3em;
+  font-weight: normal;
+  font-style: normal;
+  border-radius: 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin: 30px 0px 0px 30px auto;
+}
+
+h3 {
+  margin: 0 auto;
+
+}
+
+#option-text {
+  display: inline;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+#greet {
+  margin: 0%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  color: rgb(255, 255, 255);
+}
+
+#compute {
+  width: 10%;
+  margin-top: 30px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-bottom: 30px;
+  height: 30px;
+  background: rgb(6, 180, 0);
+  color: white;
+  border: 0px;
+  font-size: 18px;
+}
+
+#compute:hover {
+  background: green;
+  cursor: pointer;
+}
+

@@ -1,24 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>CSS/HTML Workshop with Convargo</title>
-    <link rel='stylesheet' href='styles.css'/>
+    <link rel='stylesheet' href='styles.css'>
+
   </head>
   <body>
+    <h1 id="greet">Suit-up your HTML!</h1>
     <div id="trucker">
-      <input class="name" type="text" placeholder="Trucker name"/>
-      <input class="price-by-km" type="number" placeholder="Price by km"/>
-      <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
+      <h1>Trucker Information</h1>
+      
+        <h3>Trucker Name</h3>
+        <input class="name" type="text" placeholder="Trucker name"/>
+        <h3>Price by KM</h3>
+        <input class="price-by-km" type="number" placeholder="Price by km"/>
+        <h3>Price by m3</h3>
+        <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
+      
     </div>
     <div id="shipper">
-      <input class="name" type="text" placeholder="Shipper name"/>
-      <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="volume" type="number" placeholder="Volume in m3"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
+      <h1>Shipper Information</h1>
+        <h3>Shipper Name</h3>
+        <input class="name" type="text" placeholder="Shipper name"/>
+        <h3>Distance in KM</h3>
+        <input class="distance" type="number" placeholder="Distance in km"/>
+        <h3>Volume in m3</h3>
+        <input class="volume" type="number" placeholder="Volume in m3"/>
+        <h3></h3>
+        <input class="option" type="checkbox" placeholder="Deductible option"/>
+        <p id="option-text">Deductible Option</p>
     </div>
     <button id="compute">Compute</button>
     <div id="actors"></div>
     <script src="convargo.js"></script>
     <script src="index.js"></script>
+
   </body>
 </html>
